@@ -1,0 +1,13 @@
+[package]
+name = "balances"
+type = "contract"
+authors = [""]
+compiler_version = ">=0.23.0"
+
+[dependencies]
+aztec = { git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/aztec" }
+authwit = { git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/authwit"}
+safe_math = { git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/safe-math"}
+compressed_string = {git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/compressed-string"}
+value_note = { git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/value-note"}
+easy_private_state = { git="https://github.com/AztecProtocol/aztec-packages/", tag="aztec-packages-v0.23.0", directory="yarn-project/aztec-nr/easy-private-state"}
